@@ -1,5 +1,7 @@
+//const Employee = require("../models/employee");
+
 const employeeCtrl = {}
- employeeCtrl.getEmployees  = (req,res) => {
+ employeeCtrl.getEmployees  = (req,res , ) => {
      res.send('get employees')
  }
  employeeCtrl.createEmployee  = (req,res) => {
