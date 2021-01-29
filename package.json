@@ -1,10 +1,11 @@
 {
-  "name": "Server",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev" : "nodemon src/index.js"
+    "build": "webpack -w",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,12 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "copy-webpack-plugin": "^7.0.0",
+    "nodemon": "^2.0.6",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^2.5.2",
+    "zip-webpack-plugin": "^4.0.1"
   }
 }
